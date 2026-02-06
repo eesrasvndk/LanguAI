@@ -1,0 +1,27 @@
+#Flutter & Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+.pub-cache/
+.pub/
+flutter_*.png
+android/.gradle
+android/app/google-services.json
+
+#.NET & Visual Studio
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+packages/
+TestResults/
+
+#Genel
+.idea/
+.vscode/
+*.DS_Store
