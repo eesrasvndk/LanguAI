@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:langu_ai/screens/onboarding_screen.dart';
+import 'package:langu_ai/screens/login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,8 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'LanguAI',
-      theme: ThemeData.dark(), // Koyu tema varsayılan olsun
-      home: const OnboardingScreen(), // İlk açılan ekran bu olsun
+      theme: ThemeData.dark(),
+      home: const LoginScreen(), // İlk açılan ekran bu olsun
     );
   }
 }

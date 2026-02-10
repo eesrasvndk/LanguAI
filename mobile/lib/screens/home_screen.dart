@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:langu_ai/services/auth_service.dart'; // AuthService'i import etmeyi unutma (klasör yapına göre değişebilir)
+import 'package:langu_ai/services/auth_service.dart';
 
-import 'onboarding_screen.dart'; // Çıkış yapınca geri dönmek için
+import 'login_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
               await authService.logout();
               
               Navigator.of(context).pushReplacement(
-                MaterialPageRoute(builder: (context) => const OnboardingScreen()),
+                MaterialPageRoute(builder: (context) => const  LoginScreen()),
               );
             },
           )
